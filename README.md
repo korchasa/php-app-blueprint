@@ -1,4 +1,4 @@
-#PHP app/lib blueprint
+# PHP app/lib blueprint
 
 PHPUnit, phpqa, travis-ci
 
