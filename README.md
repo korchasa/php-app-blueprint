@@ -7,7 +7,15 @@
 
 PHPUnit, phpqa, travis-ci
 
-Usage:
+Create project:
 ```bash
 composer create-project korchasa/php-app-blueprint
 ```
+Usage:
+```bash
+composer run-script style # check code style with code_sniffer
+composer run-script style-fix # fix code style
+composer run-script analyze # static analysis
+composer run-script unit # run unit tests
+composer run-script check # style && analyze && unit
+``` 

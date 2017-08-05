@@ -5,6 +5,7 @@ sudo: false
 php:
   - '7.0'
   - '7.1'
+  - '7.2'
   - nightly
 
 before_install:
@@ -12,4 +13,4 @@ before_install:
 
 install: composer update --prefer-dist $COMPOSER_FLAGS
 
-script: ./vendor/bin/phpqa --analyzedDirs src,tests && ./vendor/bin/phpunit --coverage-text
+script: composer run-script check
