@@ -29,9 +29,9 @@
     "scripts": {
         "check-loop": "while sleep 10; do clear && printf '\\e[3J' && composer run-script check ; done",
         "check": [
-            "@style",
+            "@unit",
             "@analyze",
-            "@unit"
+            "@style"
         ],
         "style": "phpcs --standard=PSR2 src tests",
         "analyze": "phpstan analyse -l5 src tests",
