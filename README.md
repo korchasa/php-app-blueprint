@@ -10,7 +10,12 @@ Create project:
 composer create-project korchasa/php-app-blueprint <project_dir>
 ```
 
-Usage:
+Dev usage:
+```bash
+composer run-script check-loop # check everything every 10 secs
+```
+
+Other scripts:
 ```bash
 composer run-script style # check code style with code_sniffer
 composer run-script style-fix # fix code style

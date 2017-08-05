@@ -27,6 +27,7 @@
         }
     },
     "scripts": {
+        "check-loop": "while sleep 10; do clear && printf '\\e[3J' && composer run-script check ; done",
         "check": [
             "@style",
             "@analyze",
