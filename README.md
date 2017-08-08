@@ -1,14 +1,14 @@
 # PHP app/lib blueprint
 
-[![Latest Version](https://img.shields.io/packagist/v/korchasa/app-blueprint.svg?style=flat-square)](https://packagist.org/packages/korchasa/app-blueprint)
-[![Build Status](https://travis-ci.org/korchasa/app-blueprint.svg?style=flat-square)](https://travis-ci.org/korchasa/app-blueprint)
+[![Latest Version](https://img.shields.io/packagist/v/korchasa/blueprint.svg?style=flat-square)](https://packagist.org/packages/korchasa/blueprint)
+[![Build Status](https://travis-ci.org/korchasa/blueprint.svg?style=flat-square)](https://travis-ci.org/korchasa/blueprint)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.0-8892BF.svg?style=flat-square)](https://php.net/)
 
 Structure, code style, static analysis, PHPUnit, travis-ci template.
 
 Create project:
 ```bash
-composer create-project korchasa/app-blueprint <project_dir>
+composer create-project korchasa/blueprint <project_dir>
 ```
 
 Dev usage:
