@@ -13,7 +13,7 @@ composer create-project korchasa/app-blueprint <project_dir>
 
 Dev usage:
 ```bash
-composer run-script check-loop # check everything every 10 secs
+composer run-script check-loop --timeout=0 # check everything every 10 secs
 ```
 
 Other scripts:
