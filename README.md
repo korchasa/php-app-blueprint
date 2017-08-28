@@ -8,7 +8,7 @@ Structure, code style, static analysis, PHPUnit, travis-ci template.
 
 Create project:
 ```bash
-composer create-project korchasa/blueprint <project_dir>
+composer create-project korchasa/app-blueprint <project_dir>
 ```
 
 Dev usage:
